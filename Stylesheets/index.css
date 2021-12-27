@@ -1,11 +1,12 @@
 :root {
-    --bg-colour: cyan;
+    --bg-colour: #001233;
     --typewriter-speed: 6s;
     --typewriter-characters: 38;
 }
 
 body {
     background: var(--bg-colour);
+    color: #48cae4;
 }
 
 .intro {
@@ -16,7 +17,8 @@ body {
 h1 {
     font-family: 'Source Code Pro', sans-serif;
     text-align: center;
-    font-size: 2.75rem;
+    color: #0096c7;
+    font-weight: lighter;
     position: relative;
     width: max-content;
 }
@@ -57,8 +59,9 @@ h1::after {
 }
 
 h3 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: lighter;
     text-align: center;
-    font-size: 2rem;
     opacity: 0;
     transform: translateY(1rem);
     animation: fadeInUp 2s ease calc(var(--typewriter-speed) + 1s) forwards;
@@ -75,5 +78,5 @@ hr {
     border: 0;
     height: 1.25px;
     background: rgb(0, 0, 0);
-    background-image: linear-gradient(to right, cyan, rgb(0, 0, 0), cyan);
+    background-image: #000000;
 }
